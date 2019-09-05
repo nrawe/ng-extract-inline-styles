@@ -1,0 +1,17 @@
+{
+  "name": "ng-extract-inline-styles",
+  "version": "1.0.0",
+  "description": "Small tool to generate a CSS file from inline Angular styles",
+  "main": "index.js",
+  "dependencies": {
+    "htmlparser2": "^4.0.0",
+    "glob": "^7.1.4",
+    "trim": "^0.0.1",
+    "random-hash": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Rawe <nick.rawe@engineius.co.uk>",
+  "license": "MIT"
+}
