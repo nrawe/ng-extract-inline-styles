@@ -5,14 +5,16 @@ templates in an Angular project to a set of high-specificity selectors.
 
 **Note:** this tool is as is and not actively maintained.
 
-## Usage
+## Extract
+
+### Usage
 
 ```bash
 cd /path/to/my/angular-project
-/path/to/ng-extract-inline-styles
+/path/to/ng-extract-inline-styles extract
 ```
 
-## Example Output
+### Example Output
 
 ```css
 /**
@@ -36,6 +38,22 @@ cd /path/to/my/angular-project
   margin: 0;
   z-index: 100;
 }
+```
+
+## Scoring
+
+### Usage
+
+```bash
+cd /path/to/my/angular-project
+/path/to/ng-extract-inline-styles score
+```
+
+### Example Output
+
+```csv
+Component Name,Score
+my-component,100
 ```
 
 ## License
