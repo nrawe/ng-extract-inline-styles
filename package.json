@@ -9,7 +9,7 @@
     "htmlparser2": "^4.0.0",
     "random-hash": "^4.0.1",
     "redux": "^4.0.4",
-    "trim": "^0.0.1"
+    "trim": "^0.0.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
